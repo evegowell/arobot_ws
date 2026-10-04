@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments (this project runs from ~/vla_ws/IsaacLab's uv env)
+.venv/
+venv/
+
+# Run outputs
+*.log
+logs/
+outputs/
+videos/
+*.mp4
+
+# Secrets
+.env
+*token*.txt
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
